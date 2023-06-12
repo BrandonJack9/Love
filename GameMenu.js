@@ -95,22 +95,7 @@ class GameMenu extends Phaser.Scene {
         .play('teddyswitch');
         
        
-       
-        /*this.tweens.addCounter({
-            targets: this.title1.body.velocity(),
-            from: 0,
-            to: 1,
-            duration: 3000,
-            yoyo: true,
-            onUpdate: (tween) => {
-
-                const v = tween.getValue();
-                const c = 255 * v;
-
-                text.setFontSize(20 + v * 64);
-                text.setColor(`rgb(${c}, ${c}, ${c})`);
-            }
-        });*/
+      
         
         
 
